@@ -29,10 +29,10 @@
                     fontFamily: {
                         interFont: ["Inter", "sans-serif"],
                         notoFont: ["Noto Serif", "serif"]
+                    },
+                    animation: {
+                        'spin-slow': 'spin 7s linear infinite',
                     }
-                    // customdesp: {
-                    //     secDes: "rgba(0, 0, 0, 0.5)",
-                    // },
                 }
             }
         }
@@ -97,7 +97,7 @@
             </div>
         </section>
     </header>
-    <main class="space-y-20 lg:space-y-24 mt-24 lg:mt-32">
+    <main class="mt-24 lg:mt-32">
         <!-- Our plant section start -->
         <section class="container mx-auto">
             <h1 class="text-[50px] font-bold text-[#000000] font-notoFont text-center"><span
@@ -240,6 +240,45 @@
                                 TO
                                 CART</button></a>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Flower plant section start  -->
+        <section class="container mx-auto mt-36">
+            <!-- container -->
+            <div class="grid place-items-center lg:grid-cols-2 gap-5 sm:gap-7 lg:gap-24 mx-3 sm:mx-5">
+                <!-- image part -->
+                <div class="relative">
+                    <div
+                        class="max-w-72 -mt-[150px] -right-[120px] animate-spin-slow hover:animate-pulse hidden lg:block absolute">
+                        <img class="w-full" src="assets/trusted-badge.png" alt="">
+                    </div>
+                    <div class="max-w-[560px]">
+                        <img class="w-full" src="assets/flower-store.png" alt="">
+                    </div>
+                </div>
+                <!-- text part -->
+                <div class="w-full sm:max-w-[560px]">
+                    <h1
+                        class="text-[40px] sm:text-5xl lg:text-5xl xl:text-[50px] font-bold font-notoFont text-[#000000] mb-4 sm:mb-7 lg:mb-5 xl:mb-10">
+                        Flower & Plants Lover</h1>
+                    <ul class="list-disc list-outside pr-3 sm:pr-4 lg:pr-0 pl-10 xl:pr-4 space-y-4">
+                        <li
+                            class="text-[18px] sm:text-[22px] lg:text-[18px] xl:text-[22px] font-normal font-interFont text-secDes">
+                            Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                            classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li
+                            class="text-[18px] sm:text-[22px] lg:text-[18px] xl:text-[22px] font-normal font-interFont text-secDes">
+                            Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                            classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li
+                            class="text-[18px] sm:text-[22px] lg:text-[18px] xl:text-[22px] font-normal font-interFont text-secDes">
+                            Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                            classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
