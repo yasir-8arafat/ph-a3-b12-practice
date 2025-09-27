@@ -335,7 +335,8 @@
                         Bunch</h1>
                     <!-- Email input -->
                     <div class="font-interFont flex">
-                        <input class="px-5 py-4 w-full" placeholder="Write Email" type="email" name="" id="">
+                        <input class="px-5 py-4 w-full focus:outline-none" placeholder="Write Email" type="email"
+                            name="" id="">
                         <input class="bg-[#E95A08] text-white font-semibold text-base px-4 sm:px-12 py-4" type="button"
                             value="Subscribe">
                     </div>
@@ -343,7 +344,47 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="font-interFont container mx-auto mt-28 mb-12">
+        <!-- footer container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-0 lg:grid-cols-4 place-items-center mx-5">
+            <!-- logo & description -->
+            <div class="max-w-[360px] space-y-6">
+                <div class="max-w-36">
+                    <img class="w-full" src="assets/logo.png" alt="">
+                </div>
+                <p class="text-[22px] text-secDes font-normal">Indulge your senses with the beauty and fragrance of our
+                    fresh flower
+                    shop.</p>
+            </div>
+            <!-- anchor - 1 -->
+            <div>
+                <ul class="space-y-5">
+                    <li><a class="text-xl text-gray-500 font-medium">Home</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">About Us</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">Blog</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">FAQ</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- anchor - 2 -->
+            <div>
+                <ul class="space-y-5">
+                    <li><a class="text-xl text-gray-500 font-medium">Features</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">Pricing</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">Privacy Policy</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">Terms of Service</a></li>
+                    <li><a class="text-xl text-gray-500 font-medium">Help Center</a></li>
+                </ul>
+            </div>
+            <!-- icons -->
+            <div class="flex gap-5">
+                <a><i class="fa-brands fa-facebook fa-2xl" style="color: #15a1ec;"></i></a>
+                <a><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+                <a><i class="fa-brands fa-linkedin fa-2xl" style="color: #0575B3;"></i></a>
+                <a><i class="fa-brands fa-youtube fa-2xl" style="color: tomato;"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
